@@ -1,0 +1,50 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.8">
+  <diagram name="Pagină-1" id="y91ScLx-5AHo9rHb68wB">
+    <mxGraphModel dx="1871" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p6J_pnEISOE6obiPk9YD-1" value="CLIENT C1 &lt;b&gt;id=1, name= &quot;ALICE&quot;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="71" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p6J_pnEISOE6obiPk9YD-2" value="CLIENT C2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p6J_pnEISOE6obiPk9YD-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="p6J_pnEISOE6obiPk9YD-2" target="p6J_pnEISOE6obiPk9YD-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p6J_pnEISOE6obiPk9YD-4" value="cand c2=setName(&quot;BOB&quot;);=&amp;gt; modificare la locul unde referentiaza c1 devine id=1, name=&quot;BOB&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p6J_pnEISOE6obiPk9YD-3">
+          <mxGeometry x="-0.5518" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p6J_pnEISOE6obiPk9YD-5" value="&lt;i style=&quot;&quot;&gt;&lt;b&gt;CAZUL 1: C2=C1!&lt;/b&gt;&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="28" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p6J_pnEISOE6obiPk9YD-6" value="&lt;b&gt;CAZUL 2: C2=c1.clone();&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="18" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p6J_pnEISOE6obiPk9YD-7" value="C2 &lt;b&gt;id=1, name=&quot;ALICE&quot;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="414" y="110" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="p6J_pnEISOE6obiPk9YD-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="p6J_pnEISOE6obiPk9YD-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="750" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p6J_pnEISOE6obiPk9YD-9" value="cand c2.setID(2) si name(&quot;Bob&quot;)&amp;nbsp;&lt;div&gt;modificam doar c2 pentru ca a fost clonat e shallow copy si aici&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;dar funcționează corect aici deoarece câmpurile sunt primitive sau imutabile.&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p6J_pnEISOE6obiPk9YD-8">
+          <mxGeometry x="-0.0486" y="-2" relative="1" as="geometry">
+            <mxPoint x="57" y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p6J_pnEISOE6obiPk9YD-10" value="&lt;table class=&quot;w-fit min-w-(--thread-content-width)&quot; data-end=&quot;2107&quot; data-start=&quot;1844&quot;&gt;&lt;thead data-end=&quot;1909&quot; data-start=&quot;1844&quot;&gt;&lt;tr data-end=&quot;1909&quot; data-start=&quot;1844&quot;&gt;&lt;th data-col-size=&quot;sm&quot; data-end=&quot;1860&quot; data-start=&quot;1844&quot;&gt;Termen&lt;/th&gt;&lt;th data-col-size=&quot;sm&quot; data-end=&quot;1909&quot; data-start=&quot;1860&quot;&gt;Înseamnă...&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody data-end=&quot;2107&quot; data-start=&quot;1976&quot;&gt;&lt;tr data-end=&quot;2041&quot; data-start=&quot;1976&quot;&gt;&lt;td data-col-size=&quot;sm&quot; data-end=&quot;1992&quot; data-start=&quot;1976&quot;&gt;&lt;strong data-end=&quot;1991&quot; data-start=&quot;1978&quot;&gt;Immutable&lt;/strong&gt;&lt;/td&gt;&lt;td data-end=&quot;2041&quot; data-start=&quot;1992&quot; data-col-size=&quot;sm&quot;&gt;Nu poate fi modificat după creare&lt;/td&gt;&lt;/tr&gt;&lt;tr data-end=&quot;2107&quot; data-start=&quot;2042&quot;&gt;&lt;td data-col-size=&quot;sm&quot; data-end=&quot;2058&quot; data-start=&quot;2042&quot;&gt;&lt;strong data-end=&quot;2055&quot; data-start=&quot;2044&quot;&gt;Mutable&lt;/strong&gt;&lt;/td&gt;&lt;td data-end=&quot;2107&quot; data-start=&quot;2058&quot; data-col-size=&quot;sm&quot;&gt;Poate fi modificat oricând&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="810" y="8" width="270" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
